@@ -18,6 +18,9 @@
         <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <!--template custom css file-->
         <link href="assets/css/style.css" rel="stylesheet">
+        <!-- Sweet Alert CSS -->
+        <link rel="stylesheet" href="assets/css/sweetalert.css">
+
 
         <script src="assets/js/modernizr.js"></script>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -28,23 +31,22 @@
         <![endif]-->
     </head>
     <body>
-        
         <div class="page-choice-center">
             <div class="page-center-in">
                 <div class="page-choice-site">
                     <h1>Choose one site:</h1>
                     <a href="whatsnextsite/index.html">
                         <div class="space-20"></div>
-                            <div class="statistic-widget-box bg-choose-whatsnext">
+                            <div class="wn-statistic-widget-box bg-choose-whatsnext">
                                 <i class=""><img src="whatsnextsite/images/wn_big_logo.png" height="150px" width="150px"></i>
                                 <div class="content overflow-hidden">
                                     <h1>WhatsNext-Series</h1>
                                 </div>
                             </div><!--statistic box end-->
                     </a>
-                    <a href="#">
+                    <a href="#" onclick="underConstruction()">
                     <div class="space-20"></div>
-                        <div class="statistic-widget-box bg-choose-portfolio">
+                        <div class="wn-statistic-widget-box bg-choose-portfolio">
                             <i class=""><img src="portfolio/images/adley-bg-transparente.png" height="150px" width="150px"></i>
                             <div class="content overflow-hidden">
                                 <h1>Adley's Portfolio</h1>
@@ -56,6 +58,7 @@
             </div><!--page center in-->
         </div><!--page center-->
 
+
         <!--Common plugins-->
         <script src="assets/plugins/jquery/dist/jquery.min.js"></script>
         <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
@@ -63,5 +66,14 @@
         <script src="assets/plugins/pace/pace.min.js"></script>
         <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
         <script src="assets/js/app.js"></script>
+        <script src="assets/js/sweetalert.min.js"></script>
+        <script type="text/javascript">
+            function underConstruction(){
+                swal({
+                    title: "Under Construction!",
+                    text: "Coming soon...",
+                    imageUrl: "assets/images/under_construction_icon.png" });
+            }
+        </script>
     </body>
 </html>

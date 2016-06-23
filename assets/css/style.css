@@ -284,12 +284,22 @@ strong, b {
 }
 
 .bg-choose-whatsnext {
-  background-color: #3c2f7d;
+  background-color: #3e0880;
+  color: #fff;
+}
+
+.bg-choose-whatsnext:hover{
+    background-color: #6217be;
   color: #fff;
 }
 
 .bg-choose-portfolio {
-  background-color: #3b3b4e;
+  background-color: #103612;
+  color: #fff;
+}
+
+.bg-choose-portfolio:hover {
+  background-color: #235b23;
   color: #fff;
 }
 
@@ -951,6 +961,36 @@ Widget boxes styles
   text-align: right;
 }
 .statistic-widget-box .content h1 {
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+/*
+Rounded Widget boxes styles
+*/
+.wn-statistic-widget-box {
+  padding: 20px 15px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 25px;
+}
+.wn-statistic-widget-box i {
+  font-size: 90px;
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+  color: #fff;
+  opacity: 0.2;
+}
+.wn-statistic-widget-box .content {
+  text-align: right;
+}
+.wn-statistic-widget-box .content h1 {
   margin-bottom: 5px;
   color: #fff;
   font-weight: 300;
