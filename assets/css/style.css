@@ -55,6 +55,12 @@ footer.page-footer {
   margin: auto;
 }
 
+.content-img2 {
+  height: 135px;
+  width: 150px;
+  margin: auto;
+}
+
 .content-div{
     display: inline-block;
     line-height: 1.25;
